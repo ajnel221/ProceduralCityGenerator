@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e369a81535a119c488d6467f10bfcbd1, type: 3}
+  m_Name: BuildingData
+  m_EditorClassIdentifier: 
+  randomSeedActive: 1
+  buildings:
+  - {fileID: 1567025513645806138, guid: 759fd03e8090e2a4a80232f829b8bb63, type: 3}
+  - {fileID: 3495828938444501039, guid: ea1fc7c6de4089240ade037d059e6762, type: 3}
+  - {fileID: 3495828938444501039, guid: ada3a742a6a2c4d4aa94d73e2dcbd37c, type: 3}
+  - {fileID: 4126921140706218127, guid: 8e7d6779f2c9e294ab7e5b7daab4a430, type: 3}
+  - {fileID: 4126921140706218127, guid: fd51f5d26646a6841a67f7ad1b3925e3, type: 3}
+  - {fileID: 4126921140706218127, guid: fd51f5d26646a6841a67f7ad1b3925e3, type: 3}
+  seed: 200
+  randomSeed: 0
+  mapWidth: 20
+  mapHeight: 20
+  buildingFootprint: 3
