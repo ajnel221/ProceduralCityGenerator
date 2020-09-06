@@ -137,20 +137,50 @@ public class Builder : MonoBehaviour
 
                     if(result < 2)
                     {
-                        GameObject newSpawn = Instantiate(buildings[0], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(buildings[0], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(buildings[0], pos, Quaternion.Euler(0,0,0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 4)
                     {
-                        GameObject newSpawn = Instantiate(buildings[1], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(buildings[1], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(buildings[1], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 5)
                     {
-                        GameObject newSpawn = Instantiate(buildings[2], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(buildings[2], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(buildings[2], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 6)
@@ -206,20 +236,50 @@ public class Builder : MonoBehaviour
 
                     if(result < 2)
                     {
-                        GameObject newSpawn = Instantiate(scriptable.buildings[0], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[0], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[0], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 4)
                     {
-                        GameObject newSpawn = Instantiate(scriptable.buildings[1], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[1], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[1], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 5)
                     {
-                        GameObject newSpawn = Instantiate(scriptable.buildings[2], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[2], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[2], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 6)
@@ -254,20 +314,50 @@ public class Builder : MonoBehaviour
 
                     if(result < 2)
                     {
-                        GameObject newSpawn = Instantiate(scriptable.buildings[0], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[0], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[0], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 4)
                     {
-                        GameObject newSpawn = Instantiate(scriptable.buildings[1], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[1], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[1], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 5)
                     {
-                        GameObject newSpawn = Instantiate(scriptable.buildings[2], pos, Quaternion.identity);
-                        newSpawn.transform.SetParent(spawner.transform, false);
+                        int rot = Random.Range(0, rotateStuff.Length);
+                        if(rot == 0)
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[2], pos, Quaternion.Euler(0, 90, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
+
+                        else
+                        {
+                            GameObject newSpawn = Instantiate(scriptable.buildings[2], pos, Quaternion.Euler(0, 0, 0));
+                            newSpawn.transform.SetParent(spawner.transform, false);
+                        }
                     }
 
                     else if(result < 6)
