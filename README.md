@@ -1,7 +1,5 @@
 ## 170193_Adriaan_Johannes_Nel_Procedural_City_Generator_&_Vegetation_Spawner
 
-**
-
 # City
 
 **To be able to use this generator, there are a few basic variables you need to understand in order to generate a viable City.**
