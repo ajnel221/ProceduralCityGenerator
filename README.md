@@ -48,3 +48,10 @@
 You can swap out the prefabs in use for whatever you like, just be sure to check the scaling of your models or adjust you variables according to your object scaling.
 
 ------------------------------------------------------------------------------------------------
+
+The basic spawning and perlin noise methods were received from this tutorial:
+[# Generating a Procedural City with Unity 5 Part 1](https://youtu.be/xkuniXI3SEE)
+
+I didn't want to use the second part of the tutorial series, because then I would just have a copied system. I tried to incorporate rotation into the system, so that buildings are randomly rotated. I also added my own systems into this tutorial by creating the Manual Seed version of this along with the ScriptableObject system that works with the initial spawning system and as for a secondary spawning system, I also created the Vegetation Spawning from scratch to compliment this system.
+
+------------------------------------------------------------------------------------------------
